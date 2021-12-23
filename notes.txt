@@ -1,0 +1,15 @@
+API key: b758e5bef3f9ec0ea28d7fc42ab1368a
+
+1. To allow our app to send request, we gone use AXIOS.
+2. Setup AXIOS (request sender).
+3. Create request endpoints (request objects) in requests.js.
+4. Create axios.js for sending requests.
+
+5. Add rows components in App.js and re-use the same component by passing different props.
+6. Create Row.js for building the component.
+
+--> It's imp to give id to all pictures in each row, because when we have to render
+   so many rows containing so many items, it's important to make rendering efficient and optimized and slightly
+   faster.
+   Also, if anything changes in that row, React doesn't simply re-render that entire row.
+   It just re-renders what it needs to re-render.
